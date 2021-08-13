@@ -1,6 +1,6 @@
 {
   "name": "package-stages",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "private": false,
   "main": "build/index.js",
   "module": "build/index.es.js",
