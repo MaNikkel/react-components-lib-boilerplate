@@ -17,7 +17,11 @@
     "storybook:export": "build-storybook",
     "test": "jest",
     "test:watch": "jest --watch",
-    "publish:patch": "node manage.js --publish patch "
+    "publish:patch": "node manage.js --publish patch",
+    "publish:minor": "node manage.js --publish minor",
+    "publish:major": "node manage.js --publish major",
+    "add:test": "node manage.js --add test",
+    "add:production": "node manage.js --add production"
   },
   "peerDependencies": {
     "react": "^17.0.2",
