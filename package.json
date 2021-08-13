@@ -1,6 +1,6 @@
 {
-  "name": "package-stages",
-  "version": "4.0.1",
+  "name": "components-boilerplate",
+  "version": "1.0.0",
   "private": false,
   "main": "build/index.js",
   "module": "build/index.es.js",
