@@ -1,0 +1,10 @@
+{
+  "name": "package-stages",
+  "version": "3.0.0",
+  "private": false,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "manage": "node manage.js"
+  }
+}
