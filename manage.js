@@ -38,7 +38,8 @@ function parseArgs(args = []) {
           const msg = `--publish requires <${PUBLISH_TYPES.join(' | ')}> option`
           throw new Error(msg)
         } else {
-          execCommand(`npm version ${publishType}`)
+          execCommand('npm run build')
+          .then(() => (execCommand(`npm version ${publishType}`)))  
           .then(() => (execCommand('npm publish --tag development')))
           .then(() => console.log('SUCCESS'))
           .catch((err) => console.error(`ERROR: ${err}`))
