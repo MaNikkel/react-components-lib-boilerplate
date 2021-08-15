@@ -1,13 +1,12 @@
-import React from "react";
-import { render, screen } from "@testing-library/react";
+import React from 'react';
+import { render, screen } from '@testing-library/react';
 
-import Button from ".";
+import Button from '.';
 
-describe("Test Component", () => {
+describe('Test Component', () => {
+  it('Should render correctly', () => {
+    const { container } = render(<Button>Dummy</Button>);
 
-  it("Should render correctly", () => {
-    const { container } = render(<Button>Dummy</Button>)
-
-    expect(container).toBeInTheDocument()
+    expect(container).toBeInTheDocument();
   });
 });

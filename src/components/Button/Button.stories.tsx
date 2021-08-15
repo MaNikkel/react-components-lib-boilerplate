@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import Button from '.';
 
 export default {
-  title: "Button Component"
+  title: 'Button Component',
 };
 
 export const ButtonPrimary = () => <Button>Button</Button>;
