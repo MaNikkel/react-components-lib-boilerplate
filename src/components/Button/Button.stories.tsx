@@ -6,3 +6,4 @@ export default {
 };
 
 export const ButtonPrimary: React.FC = () => <Button>Button</Button>;
+export const ButtonSecondary: React.FC = () => <Button>Button</Button>;
