@@ -6,6 +6,9 @@
   "module": "build/index.es.js",
   "types": "build/index.d.ts",
   "source": "src/index.ts",
+  "repository": {
+    "url": "https://github.com/MaNikkel/react-components-lib-boilerplate"
+  },
   "files": [
     "build/**/*"
   ],
