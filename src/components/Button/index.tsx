@@ -6,9 +6,9 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const ButtonComponent: React.FC = ({
   children,
-  ...butonProps
+  ...buttonProps
 }: ButtonProps) => (
-  <button {...butonProps} type="button">
+  <button {...buttonProps} type="button">
     {children} j
   </button>
 );
