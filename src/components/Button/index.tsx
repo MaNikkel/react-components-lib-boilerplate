@@ -9,7 +9,7 @@ const ButtonComponent: React.FC = ({
   ...butonProps
 }: ButtonProps) => (
   <button {...butonProps} type="button">
-    {children}
+    {children} j
   </button>
 );
 
